@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringKeyValuePairsContainer>
+  <Pairs>
+    <StringKeyValuePair Key="Application" Value="DentalDesktop 1.8.8.0" />
+    <StringKeyValuePair Key="BiteAlignedWith" Value="LowerJawScan: LowerJawScan, UpperJawScan UpperJawScan" />
+    <StringKeyValuePair Key="DongleNumber" Value="3535874912" />
+    <StringKeyValuePair Key="IsImpressionScan" Value="False" />
+    <StringKeyValuePair Key="LowerLiveBiteAlignment" Value="-0.2632; 0.8888; 0.3751; 7.1465 -0.9295; -0.3378; 0.1482; -1.2965 0.2584; -0.3096; 0.9151; 7.4289" />
+    <StringKeyValuePair Key="PostProcessTime" Value="0.17" />
+    <StringKeyValuePair Key="ScanMeshLongestEdge" Value="0.28" />
+    <StringKeyValuePair Key="ScannerDisplayName" Value="TRIOS 5" />
+    <StringKeyValuePair Key="ScannerFirmware" Value="0.0.0.1" />
+    <StringKeyValuePair Key="ScannerSerialNumber" Value="1jd2245l01044b" />
+    <StringKeyValuePair Key="ScanSource" Value="TRIOS" />
+    <StringKeyValuePair Key="ScanTime" Value="00:00:11.9954671" />
+    <StringKeyValuePair Key="SiteID" Value="186168" />
+    <StringKeyValuePair Key="SourceApp" Value="TRIOS f22fb8f826b073d9f4d94fdbdb2a109ca8d69257 0001-01-01 00:00" />
+    <StringKeyValuePair Key="SubscanCount" Value="181" />
+    <StringKeyValuePair Key="SurfaceArea" Value="1389" />
+    <StringKeyValuePair Key="UpperLiveBiteAlignment" Value="0.1754; -0.9664; 0.1877; 8.6418 0.9766; 0.1467; -0.1573; 1.0391 0.1245; 0.2109; 0.9695; 13.8126" />
+  </Pairs>
+</StringKeyValuePairsContainer>

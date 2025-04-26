@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<DentalContainer version="2023-1">
+  <Object name="MainObject" type="TDM_Container">
+    <Object name="OrderList" type="TDM_List_Order">
+      <List name="Items">
+        <Object type="TDM_Item_Order">
+          <Property name="IntOrderID" value="2021-6-A2-HAMED-JONES-239267730-ITERO"/>
+          <Property name="ExtOrderID" value=""/>
+          <Property name="NumOrderID" value="8206112370790"/>
+          <Property name="ImportOrderID" value=""/>
+          <Property name="ClientID" value="82061_Site226"/>
+          <Property name="ClientOrderNo" value=""/>
+          <Property name="ClientContactPerson" value="Dr. Long, Richard"/>
+          <Property name="OrderImportanceID" value="oiNormal"/>
+          <Property name="Patient_RefNo" value=""/>
+          <Property name="Patient_FirstName" value="2021-"/>
+          <Property name="Patient_LastName" value="Amal, Hamed STX"/>
+          <Property name="PatientGuid" value=""/>
+          <Property name="DeliveryAddress1" value=""/>
+          <Property name="DeliveryAddress2" value=""/>
+          <Property name="DeliveryZip" value=""/>
+          <Property name="DeliveryCity" value=""/>
+          <Property name="DeliveryState" value=""/>
+          <Property name="DeliveryCountryID" value=""/>
+          <Property name="DeliveryType" value=""/>
+          <Property name="ShipToDeliveryAddress" value="False"/>
+          <Property name="ShipToDifferentAddress" value="False"/>
+          <Property name="OrderComments" value="Exported from iTero system: 04/01/2025 19:16:53&#xA;Export scheme: 3Shape&#xA;Original file path: &#xA;iTero version: 2.16.0.123&#xA;Lab name: CARLOS CERAMICS DENTAL LAB - Miami&#xA;Lab technician: &#xA;Patient: Amal, Hamed STX&#xA;Scheme information: Exported files are compatible with 3Shape Dental System version 2008/1 or later&#xA;Tooth shade system: VITA Lumin&#xA;Notes: (D) Dr. Long, Richard (4/1/2025 | 10:39:09 AM)&#xA;stx case&#xA;"/>
+          <Property name="CreatedFromApp" value="appDentalManager"/>
+          <Property name="RelativePos" value="True"/>
+          <Property name="OperatorID" value="82061_Operator10"/>
+          <Property name="DesignModuleID" value="DentalDesigner"/>
+          <Property name="ModelDesignModule" value="mdmModelBuilder"/>
+          <Property name="ModelBuilderExpressPresetGUID" value=""/>
+          <Property name="ModelBuilderExpressPresetDisplayName" value=""/>
+          <Property name="ScanModuleID" value="ModelBuilder"/>
+          <Property name="FaceScanModuleID" value=""/>
+          <Property name="OriginalOrderID" value=""/>
+          <Property name="Customer" value="Long, Richard (Jones Office)"/>
+          <Property name="Items" value="Crown 6"/>
+          <Property name="ManufName" value="Carlos Ceramics - 3578734458 (main)"/>
+          <Property name="OperatorName" value="Carlos Ceramics @"/>
+          <Property name="CacheMaterialName" value="&quot;CAP FZ (Full Contour Zirconia)&quot;"/>
+          <Property name="CacheColor" value=""/>
+          <Property name="CacheMaxScanDate" value="0"/>
+          <Property name="OrderRelativePositionClass" value="orpSectioned"/>
+          <Property name="ShipToERPCustNo" value="CARLOS CERAMICS DENTAL LAB - Miami"/>
+          <Property name="ERPCustomerNo" value=""/>
+          <Property name="ShipToID" value=""/>
+          <Property name="ModelManufacturingID" value=""/>
+          <Property name="ScanSource" value="ssItero"/>
+          <Property name="ImprovementProgramSendDate" value="0"/>
+          <Property name="GroupFolder" value=""/>
+          <Property name="TraySystemType" value="stNone"/>
+        </Object>
+      </List>
+    </Object>
+    <Object name="ModelJobList" type="TDM_List_ModelJob">
+      <List name="Items">
+        <Object type="TDM_Item_ModelJob">
+          <Property name="ModelJobID" value="MJE7C07445B0B347268EEABB68930E564F"/>
+          <Property name="OrderID" value="2021-6-A2-HAMED-JONES-239267730-ITERO"/>
+        </Object>
+      </List>
+    </Object>
+    <Object name="ModelElementList" type="TDM_List_ModelElement">
+      <List name="Items">
+        <Object type="TDM_Item_ModelElement">
+          <Property name="ModelElementID" value="ME6F73F99F1FBD4653B32F48B03B9088DA"/>
+          <Property name="ModelJobID" value="MJE7C07445B0B347268EEABB68930E564F"/>
+          <Property name="MaterialID" value="50097_CAP FZ (Full Contour Zirconia)"/>
+          <Property name="ColorID" value=""/>
+          <Property name="ProcessStatusID" value="psScanned"/>
+          <Property name="AltProcessStatusID" value="psPartiallyScanned"/>
+          <Property name="ProcessLockID" value="plReady"/>
+          <Property name="ManufacturingProcessID" value="Configuration_11_ManufProcess30"/>
+          <Property name="ManufacturerID" value="82061"/>
+          <Property name="ModelHeight" value="0"/>
+          <Property name="ModelVolume" value="0"/>
+          <Property name="ModelBoundingBoxMin" value=""/>
+          <Property name="ModelBoundingBoxMax" value=""/>
+          <Property name="ModelTransformation" value=""/>
+          <Property name="ModelFilename" value=""/>
+          <Property name="Location1" value=""/>
+          <Property name="Location2" value=""/>
+          <Property name="Location3" value=""/>
+          <Property name="Location4" value=""/>
+          <Property name="VirtualItem" value="False"/>
+          <Property name="ModelComment" value=""/>
+          <Property name="CreateDate" value="1743522158"/>
+          <Property name="DeliveryDate" value="1744675200"/>
+          <Property name="ShippingDate" value="1744675200"/>
+          <Property name="ReceiveDate" value="1744675200"/>
+          <Property name="ModelActive" value="True"/>
+          <Property name="WasSent" value="False"/>
+          <Property name="Items" value="Crown 6"/>
+          <Property name="ManufName" value="Carlos Ceramics - 3578734458 (main)"/>
+          <Property name="CacheMaterialName" value="CAP FZ (Full Contour Zirconia)"/>
+          <Property name="CacheColor" value=""/>
+          <Property name="CAMBlankID" value=""/>
+          <Property name="CAMBlankBatchID" value=""/>
+          <Property name="CAMJobID" value=""/>
+          <Property name="CAMJobName" value=""/>
+          <Property name="CAMErrorDescription" value=""/>
+          <Property name="ERPItemNo" value=""/>
+          <Property name="ModelElementType" value="meIndicationRegular"/>
+          <Property name="ValidationResult" value="vrUndefined"/>
+          <Property name="IgnoredMaterialRestrictions" value=""/>
+        </Object>
+      </List>
+    </Object>
+    <Object name="ToothElementList" type="TDM_List_ToothElement">
+      <List name="Items">
+        <Object type="TDM_Item_ToothElement">
+          <Property name="ToothElementID" value="TE2C72A6480DAF48FFA7095F542B6142A1"/>
+          <Property name="ModelElementID" value="ME6F73F99F1FBD4653B32F48B03B9088DA"/>
+          <Property name="toothElementTypeID" value="50097_CAP FZ (Full Contour Zirconia)"/>
+          <Property name="ToothNumber" value="6"/>
+          <Property name="AbutmentKitID" value=""/>
+          <Property name="Anatomical" value="False"/>
+          <Property name="PostAndCore" value="False"/>
+          <Property name="CacheToothTypeClass" value="teCrown"/>
+        </Object>
+      </List>
+    </Object>
+    <Object name="LinkList" type="TDM_List_Link">
+      <List name="Items"/>
+    </Object>
+    <Object name="LinkToothElementList" type="TDM_List_LinkToothElement">
+      <List name="Items"/>
+    </Object>
+    <Object name="SplitBridgeLinkList" type="TDM_List_SplitBridgeLink">
+      <List name="Items"/>
+    </Object>
+    <Object name="CountryList" type="TDM_List_Country">
+      <List name="Items"/>
+    </Object>
+    <Object name="MaterialList" type="TDM_List_Material">
+      <List name="Items"/>
+    </Object>
+    <Object name="SiteList" type="TDM_List_Site">
+      <List name="Items"/>
+    </Object>
+    <Object name="SitePreferencesList" type="TDM_List_SitePreferences">
+      <List name="Items"/>
+    </Object>
+    <Object name="ManufacturingProcessList" type="TDM_List_ManufacturingProcess">
+      <List name="Items"/>
+    </Object>
+    <Object name="Manufacturer_ManProcessList" type="TDM_List_Manufacturer_ManProcess">
+      <List name="Items"/>
+    </Object>
+    <Object name="Material_ManProcessList" type="TDM_List_Material_ManProcess">
+      <List name="Items"/>
+    </Object>
+    <Object name="ToothElementTypeList" type="TDM_List_ToothElementType">
+      <List name="Items"/>
+    </Object>
+    <Object name="LinkTypeList" type="TDM_List_LinkType">
+      <List name="Items"/>
+    </Object>
+    <Object name="OptionalComponentList" type="TDM_List_OptionalComponent">
+      <List name="Items"/>
+    </Object>
+    <Object name="ValidationList" type="TDM_List_Validation">
+      <List name="Items"/>
+    </Object>
+    <Object name="CementSpaceList" type="TDM_List_CementSpace">
+      <List name="Items"/>
+    </Object>
+    <Object name="OverlayList" type="TDM_List_Overlay">
+      <List name="Items"/>
+    </Object>
+    <Object name="CopingOverlayList" type="TDM_List_CopingOverlay">
+      <List name="Items"/>
+    </Object>
+    <Object name="CrownOverlayList" type="TDM_List_CrownOverlay">
+      <List name="Items"/>
+    </Object>
+    <Object name="InlayOverlayList" type="TDM_List_InlayOverlay">
+      <List name="Items"/>
+    </Object>
+    <Object name="TabletopOverlayList" type="TDM_List_TabletopOverlay">
+      <List name="Items"/>
+    </Object>
+    <Object name="TelescopeOverlayList" type="TDM_List_TelescopeOverlay">
+      <List name="Items"/>
+    </Object>
+    <Object name="WaxupOverlayList" type="TDM_List_WaxupOverlay">
+      <List name="Items"/>
+    </Object>
+    <Object name="ScanList" type="TDM_List_Scan">
+      <List name="Items">
+        <Object type="TDM_Item_Scan">
+          <Property name="ScanID" value="S1F2F112FC58F4BCC906B22E619A7EBD5"/>
+          <Property name="ScanType" value="stPreparationIntraOral"/>
+          <Property name="ModelJobID" value="MJE7C07445B0B347268EEABB68930E564F"/>
+          <Property name="ModelElementID" value="_NULL_"/>
+          <Property name="ToothElementID" value="_NULL_"/>
+          <Property name="ScanDate" value="0"/>
+          <Property name="ScanName" value=""/>
+          <Property name="FileName" value=""/>
+        </Object>
+        <Object type="TDM_Item_Scan">
+          <Property name="ScanID" value="S9AFDF407A8A64D679C0847BDDB61537A"/>
+          <Property name="ScanType" value="stAntagonistIntraOral"/>
+          <Property name="ModelJobID" value="MJE7C07445B0B347268EEABB68930E564F"/>
+          <Property name="ModelElementID" value="_NULL_"/>
+          <Property name="ToothElementID" value="_NULL_"/>
+          <Property name="ScanDate" value="0"/>
+          <Property name="ScanName" value=""/>
+          <Property name="FileName" value=""/>
+        </Object>
+      </List>
+    </Object>
+    <Object name="PathList" type="TDM_List_Path">
+      <List name="Items"/>
+    </Object>
+    <Object name="InboxDataList" type="TDM_List_InboxData">
+      <List name="Items"/>
+    </Object>
+    <Object name="TrackAndTraceList" type="TDM_List_TrackAndTrace">
+      <List name="Items"/>
+    </Object>
+    <Object name="CustomDataList" type="TDM_List_CustomData">
+      <List name="Items">
+        <Object type="TDM_Item_CustomData">
+          <Property name="CustomDataID" value="CDDC1219C81C664CDEB3CDF5C42C613A6D"/>
+          <Property name="OrderID" value="2021-6-A2-HAMED-JONES-239267730-ITERO"/>
+          <Property name="FieldID" value="{6737EB02-2414-4561-AD0D-FF36A62930B9}"/>
+          <Property name="FieldCaption" value=""/>
+          <Property name="Value" value="d2da2bf4-fd7b-4d91-8061-a7191031f886"/>
+          <Property name="Kind" value="cdkPublic"/>
+        </Object>
+        <Object type="TDM_Item_CustomData">
+          <Property name="CustomDataID" value="CD2B953F30CA524361A9CD516403031B85"/>
+          <Property name="OrderID" value="2021-6-A2-HAMED-JONES-239267730-ITERO"/>
+          <Property name="FieldID" value="DS_DesiredDesigner"/>
+          <Property name="FieldCaption" value="Desired designer"/>
+          <Property name="Value" value="-"/>
+          <Property name="Kind" value="cdkPublic"/>
+        </Object>
+        <Object type="TDM_Item_CustomData">
+          <Property name="CustomDataID" value="CD22FA2485BF6A4D2BB40012FA440E509A"/>
+          <Property name="OrderID" value="2021-6-A2-HAMED-JONES-239267730-ITERO"/>
+          <Property name="FieldID" value="DS_ShadeField"/>
+          <Property name="FieldCaption" value="Shade"/>
+          <Property name="Value" value="A2"/>
+          <Property name="Kind" value="cdkPublic"/>
+        </Object>
+      </List>
+    </Object>
+    <Object name="OrderExchangeElementList" type="TDM_List_OrderExchangeElement">
+      <List name="Items"/>
+    </Object>
+    <Object name="OrderExchangeAttachmentList" type="TDM_List_OrderExchangeAttachment">
+      <List name="Items"/>
+    </Object>
+    <Object name="DigitalModelElementInfoList" type="TDM_List_DigitalModelElementInfo">
+      <List name="Items"/>
+    </Object>
+    <Object name="MarginLineList" type="TDM_List_MarginLine">
+      <List name="Items"/>
+    </Object>
+    <Object name="OperatorList" type="TDM_List_Operator">
+      <List name="Items"/>
+    </Object>
+    <Object name="ColorList" type="TDM_List_Color">
+      <List name="Items"/>
+    </Object>
+    <Object name="ColorGroupList" type="TDM_List_ColorGroup">
+      <List name="Items"/>
+    </Object>
+    <Object name="ColorGroupLinkList" type="TDM_List_ColorGroup_Link">
+      <List name="Items"/>
+    </Object>
+    <Object name="SmileLibraryList" type="TDM_List_SmileLibrary">
+      <List name="Items"/>
+    </Object>
+    <Object name="SmileLibraryGroupList" type="TDM_List_SmileLibraryGroup">
+      <List name="Items"/>
+    </Object>
+    <Object name="SmileLibraryGroupLinkList" type="TDM_List_SmileLibraryGroup_Link">
+      <List name="Items"/>
+    </Object>
+    <Object name="SmileLibraryProviderList" type="TDM_List_SmileLibraryProvider">
+      <List name="Items"/>
+    </Object>
+    <Object name="SmileLibraryProviderLinkList" type="TDM_List_SmileLibraryProvider_Link">
+      <List name="Items"/>
+    </Object>
+    <Object name="FDSmileLibraryLinkList" type="TDM_List_FDSmileLibrary_Link">
+      <List name="Items"/>
+    </Object>
+    <Object name="AttachmentList" type="TDM_List_Attachment">
+      <List name="Items"/>
+    </Object>
+    <Object name="AttachmentGroupList" type="TDM_List_AttachmentGroup">
+      <List name="Items"/>
+    </Object>
+    <Object name="Attachment_AttachmentGroupList" type="TDM_List_Attachment_AttachmentGroup">
+      <List name="Items"/>
+    </Object>
+    <Object name="Attachment_MaterialList" type="TDM_List_Attachment_Material">
+      <List name="Items"/>
+    </Object>
+    <Object name="ManufacturingBlankList" type="TDM_List_ManufacturingBlank">
+      <List name="Items"/>
+    </Object>
+    <Object name="ManufacturingBlank_Material_LinkList" type="TDM_List_ManufacturingBlank_Material_Link">
+      <List name="Items"/>
+    </Object>
+    <Object name="PressMultiSprueList" type="TDM_List_PressMultiSprue">
+      <List name="Items"/>
+    </Object>
+    <Object name="PressMultiSprue_Material_LinkList" type="TDM_List_PressMultiSprue_Material_Link">
+      <List name="Items"/>
+    </Object>
+    <Object name="PnCSystemList" type="TDM_List_PnCSystem">
+      <List name="Items"/>
+    </Object>
+    <Object name="PnCTypeList" type="TDM_List_PnCType">
+      <List name="Items"/>
+    </Object>
+    <Object name="BarGroupList" type="TDM_List_BarGroup">
+      <List name="Items"/>
+    </Object>
+    <Object name="Bar_BarGroupList" type="TDM_List_Bar_BarGroup">
+      <List name="Items"/>
+    </Object>
+    <Object name="Order2DImageOverlayList" type="TDM_List_Order2DImageOverlay">
+      <List name="Items"/>
+    </Object>
+    <Object name="Material2DImageOverlayList" type="TDM_List_Material2DImageOverlay">
+      <List name="Items"/>
+    </Object>
+    <Object name="JobTypeERPInformationList" type="TDM_List_JobTypeERPInformation">
+      <List name="Items"/>
+    </Object>
+    <Object name="ExternalApplicationList" type="TDM_List_ExternalApplication">
+      <List name="Items"/>
+    </Object>
+    <Object name="MillingMachineList" type="TDM_List_MillingMachine">
+      <List name="Items"/>
+    </Object>
+    <Object name="ImplantSystemList" type="TDM_List_ImplantSystem">
+      <List name="Items"/>
+    </Object>
+    <Object name="ImplantSystemPartList" type="TDM_List_ImplantSystemPart">
+      <List name="Items"/>
+    </Object>
+    <Object name="AbutmentKitList" type="TDM_List_AbutmentKit">
+      <List name="Items"/>
+    </Object>
+    <Object name="ImplantSystemGroupList" type="TDM_List_ImplantSystemGroup">
+      <List name="Items"/>
+    </Object>
+    <Object name="ImplantSystem_ImplantSystemGroupList" type="TDM_List_ImplantSystem_ImplantSystemGroup">
+      <List name="Items"/>
+    </Object>
+    <Object name="AbutmentKitMaterialRelationList" type="TDM_List_AbutmentKitMaterialRelation">
+      <List name="Items"/>
+    </Object>
+    <Object name="AbutmentKitImplantPartExtraRelationList" type="TDM_List_AbutmentKitImplantPartExtraRelation">
+      <List name="Items"/>
+    </Object>
+    <Object name="IPGSSurgicalTrayList" type="TDM_List_IPGS_SurgicalTray">
+      <List name="Items"/>
+    </Object>
+    <Object name="IPGSSleeveList" type="TDM_List_IPGS_Sleeve">
+      <List name="Items"/>
+    </Object>
+    <Object name="IPGSSleeveGroupOffsetList" type="TDM_List_IPGS_SleeveGroupOffset">
+      <List name="Items"/>
+    </Object>
+    <Object name="IPGSGroupOffsetList" type="TDM_List_IPGS_GroupOffset">
+      <List name="Items"/>
+    </Object>
+    <Object name="IPGSImplantTraySleeveList" type="TDM_List_IPGS_ImplantTraySleeve">
+      <List name="Items"/>
+    </Object>
+    <Object name="DentureWaxTemplateList" type="TDM_List_DentureWaxTemplate">
+      <List name="Items"/>
+    </Object>
+    <Object name="RPDConnectorList" type="TDM_List_RPDConnector">
+      <List name="Items"/>
+    </Object>
+    <Object name="WaxProfileStripList" type="TDM_List_WaxProfileStrip">
+      <List name="Items"/>
+    </Object>
+    <Object name="RetentionsList" type="TDM_List_Retentions">
+      <List name="Items"/>
+    </Object>
+    <Object name="StippledWaxList" type="TDM_List_StippledWax">
+      <List name="Items"/>
+    </Object>
+    <Object name="ModelManufacturingList" type="TDM_List_ModelManufacturing">
+      <List name="Items"/>
+    </Object>
+    <Object name="ArticulatorInterfaceList" type="TDM_List_ArticulatorInterface">
+      <List name="Items"/>
+    </Object>
+    <Object name="ArticulatorAdapterModelsList" type="TDM_List_ArticulatorAdapterModels">
+      <List name="Items"/>
+    </Object>
+    <Object name="ArticulatorList" type="TDM_List_Articulator">
+      <List name="Items"/>
+    </Object>
+    <Object name="ArticulatorToolList" type="TDM_List_Articulator_Tool">
+      <List name="Items"/>
+    </Object>
+    <Object name="ModelBaseList" type="TDM_List_ModelBase">
+      <List name="Items"/>
+    </Object>
+    <Object name="CommunicateOrderList" type="TDM_List_CommunicateOrder">
+      <List name="Items"/>
+    </Object>
+    <Property name="ImportForceOverwrite" value="false"/>
+    <Property name="ImportForceClean" value="false"/>
+    <Property name="EmptyRecycleBin" value="false"/>
+  </Object>
+</DentalContainer>

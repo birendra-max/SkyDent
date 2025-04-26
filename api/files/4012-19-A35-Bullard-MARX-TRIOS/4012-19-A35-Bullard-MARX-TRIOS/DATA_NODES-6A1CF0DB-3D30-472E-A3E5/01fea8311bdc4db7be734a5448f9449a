@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringKeyValuePairsContainer>
+  <Pairs>
+    <StringKeyValuePair Key="Application" Value="DentalDesktop 1.8.8.0" />
+    <StringKeyValuePair Key="AreNormalsFlipped" Value="False" />
+    <StringKeyValuePair Key="ChrominanceVariance" Value="53" />
+    <StringKeyValuePair Key="ColorCalibrationKitVersion" Value="14" />
+    <StringKeyValuePair Key="ComputerName" Value="JMVTTQ3" />
+    <StringKeyValuePair Key="DaysSinceCalibration" Value="873" />
+    <StringKeyValuePair Key="DentureMode" Value="0" />
+    <StringKeyValuePair Key="DongleNumber" Value="3535874912" />
+    <StringKeyValuePair Key="FluoScanTime" Value="00:00:00" />
+    <StringKeyValuePair Key="FluoSubscanCount" Value="235" />
+    <StringKeyValuePair Key="FusedDiff" Value="-1" />
+    <StringKeyValuePair Key="HighResSubscanCount" Value="0" />
+    <StringKeyValuePair Key="ModelColoringAlgorithmVersion" Value="3" />
+    <StringKeyValuePair Key="NormContrast" Value="-1" />
+    <StringKeyValuePair Key="ParamContrast" Value="-1" />
+    <StringKeyValuePair Key="PostProcessTime" Value="10.62" />
+    <StringKeyValuePair Key="ScanMeshLongestEdge" Value="0.37" />
+    <StringKeyValuePair Key="ScannedInCombinedMode" Value="True" />
+    <StringKeyValuePair Key="ScannerDisplayName" Value="TRIOS 5" />
+    <StringKeyValuePair Key="ScannerFirmware" Value="0.0.0.1" />
+    <StringKeyValuePair Key="ScannerRGBCalibrationAge" Value="0" />
+    <StringKeyValuePair Key="ScannerSerialNumber" Value="1jd2245l01044b" />
+    <StringKeyValuePair Key="ScannerType" Value="4" />
+    <StringKeyValuePair Key="ScanSource" Value="TRIOS" />
+    <StringKeyValuePair Key="ScanTime" Value="00:01:15.0040160" />
+    <StringKeyValuePair Key="SiteID" Value="186168" />
+    <StringKeyValuePair Key="SourceApp" Value="TRIOS f22fb8f826b073d9f4d94fdbdb2a109ca8d69257 0001-01-01 00:00" />
+    <StringKeyValuePair Key="SubscanCount" Value="982" />
+    <StringKeyValuePair Key="SupportsShadeMeasurement2" Value="True" />
+    <StringKeyValuePair Key="SurfaceArea" Value="2403" />
+    <StringKeyValuePair Key="TimeStampUTC" Value="2025-04-03 19:18:02.239" />
+    <StringKeyValuePair Key="TipSerialNumber" Value="Scanning" />
+    <StringKeyValuePair Key="TipType" Value="ScanningTip" />
+    <StringKeyValuePair Key="TipUsageCount" Value="-1" />
+  </Pairs>
+</StringKeyValuePairsContainer>
