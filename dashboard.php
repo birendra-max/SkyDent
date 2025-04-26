@@ -282,7 +282,7 @@ function Total_row($bd, $status, $clid)
           ?>
         </h3>
 
-        <p style="color: #000 !important;font-weight: bold;">Weekly Cases</p>
+        <p style="color: #000 !important;font-weight: bold;">Last 100 Cases</p>
       </div>
       <div class="icon">
         <i class="fas fa-tasks"></i>
