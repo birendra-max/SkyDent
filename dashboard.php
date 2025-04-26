@@ -274,7 +274,7 @@ function Total_row($bd, $status, $clid)
           <?php
           $tdate = date('d-M-Y', strtotime('-1 day', strtotime(date("d-M-Y"))));
           $cc = 0;
-          $resulth = mysqli_query($bd, "SELECT * FROM orders  WHERE clientid='$em' and STR_TO_DATE(created_at, '%d-%b-%Y') >= CURDATE() - INTERVAL 100 DAY");
+          $resulth = mysqli_query($bd, "SELECT * FROM orders  WHERE clientid='$em' and STR_TO_DATE(created_at, '%d-%b-%Y') >= CURDATE() - INTERVAL 7 DAY");
           while ($rowh = mysqli_fetch_array($resulth)) {
             $cc++;
           }

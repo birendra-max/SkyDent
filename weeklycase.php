@@ -75,7 +75,7 @@ $em = $_SESSION['email'];
                         <?php
                         $clientid = $_SESSION['email'];
                         $i = 0;
-                        $sql = "SELECT * FROM orders  WHERE clientid='$clientid' and STR_TO_DATE(created_at, '%d-%b-%Y') >= CURDATE() - INTERVAL 100 DAY";
+                        $sql = "SELECT * FROM orders  WHERE clientid='$clientid' and STR_TO_DATE(created_at, '%d-%b-%Y') >= CURDATE() - INTERVAL 7 DAY";
                         print_r($sql);
                         $res = mysqli_query($bd, $sql);
                         $tdate = date('d-M-Y', strtotime('-1 day', strtotime(date("d-M-Y"))));
