@@ -130,7 +130,6 @@ echo "<script>alert('You have activated successfully.')</script>";
     echo "<script>alert('This pin is not available.')</script>";
 
 }
-}
 
 ?>
 
