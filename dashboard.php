@@ -14,6 +14,26 @@ function Total_row($bd, $status, $clid)
 
 
 
+<!-- Feedback form  -->
+<div id="feedbackModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:1000;">
+  <div style="background:#fff; width:100%; max-width:700px; margin:10% auto; padding:20px; border-radius:10px; position:relative;">
+
+    <!-- Close Button -->
+    <button onclick="closeFeedbackModal()" style="position:absolute; top:10px; right:10px; background:none; border:none; font-size:25px;">
+      <i class="fas fa-times"></i>
+    </button>
+
+    <!-- Content -->
+    <h3><i class="fas fa-comment-dots"></i> Feedback</h3>
+    <textarea id="feedbackMessage" placeholder="Enter your feedback..." style="width:100%; height:150px; margin:10px 0; padding:10px;"></textarea>
+
+    <!-- Buttons -->
+    <button onclick="sendFeedback()" style="background:#007bff; color:#fff; padding:10px 15px; border:none; border-radius:4px;">
+      <i class="fas fa-paper-plane"></i> Send Feedback
+    </button>
+  </div>
+</div>
+
 
 <!-- Small boxes (Stat box) -->
 <div class="row">
@@ -293,4 +313,62 @@ function Total_row($bd, $status, $clid)
 </div>
 
 
+<div class="col-lg-3 col-6">
+  <!-- small box -->
+  <a onclick="openFeedbackModal()" style="cursor: pointer;" class="small-box-footer">
+    <div class="info-box" style="background-color: #E6CF86 !important;" >
+      <span class="info-box-icon bg-success elevation-1"><i class="fas fa-comment"></i>
+      </span>
+
+      <div class="info-box-content">
+        <span onclick="" class="info-box-text">Your feedback!</span>
+        <span class="info-box-num
+                ber">
+          <small></small>
+        </span>
+      </div>
+      <!-- /.info-box-content -->
+    </div>
+  </a>
 </div>
+</div>
+
+
+</div>
+
+<script>
+  function openFeedbackModal() {
+    document.getElementById('feedbackModal').style.display = "block"
+  }
+
+  function closeFeedbackModal() {
+    document.getElementById('feedbackModal').style.display = "none";
+  }
+
+  function sendFeedback() {
+    let fback = document.getElementById('feedbackMessage').value;
+    if (fback == '') {
+      alert('Plz enter your feedback !');
+    } else {
+      document.getElementById('feedbackModal').style.display = "none";
+      fetch('fback.php', {
+          method: "POST",
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(fback)
+        })
+        .then(response => response.text())
+        .then(data => {
+          if (data == 'Feedback received. Thank you!') {
+            alert(data);
+          }
+        })
+        .catch(err => {
+          alert("Error: " + err);
+        });
+
+
+    }
+  }
+</script>
